@@ -14,14 +14,14 @@ services:
       - key: PREFIX
         value: "."
       - key: MODE
-        value: "private"
+        value: "public"
       - key: DESCRIPTION
         value: "> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀꜱᴛᴇʀᴛᴇᴄʜ-xᴅ*"
       - key: OWNER_NUMBER
         value: "254743727510"
       - key: OWNER_NAME
         value: "ᴍᴀꜱᴛᴇʀᴘᴇᴀᴄᴇ ᴇʟɪᴛᴇ"
-
-volumes:
-  - name: session-data
-    path: /opt/render/project/src/sessions
+    disk:
+      name: session-data
+      mountPath: /opt/render/project/src/sessions
+      sizeGB: 1
