@@ -1,5 +1,5 @@
 FROM node:lts-buster
-RUN git clone https://github.com/Mastertech-XD/MASTERTECH-XD-V2/root/ikJawad
+RUN git clone https://github.com/Mastertech-XD/MASTERTECH-XD-V2.git
 WORKDIR /root/ikJawad
 RUN npm install && npm install -g pm2 || yarn install --network-concurrency 1
 COPY . .
