@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: mastertech-xd
+    env: node
+    plan: free
+    repo: https://github.com/Mastertech-XD/MASTERTECH-XD-V2
+    branch: main
+    autoDeploy: true
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: BOT_NAME
+        value: "ᴍᴀꜱᴛᴇʀᴛᴇᴄʜ-xᴅ"
+      - key: PREFIX
+        value: "."
+      - key: MODE
+        value: "private"
+      - key: DESCRIPTION
+        value: "> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀꜱᴛᴇʀᴛᴇᴄʜ-xᴅ*"
+      - key: OWNER_NUMBER
+        value: "254743727510"
+      - key: OWNER_NAME
+        value: "ᴍᴀꜱᴛᴇʀᴘᴇᴀᴄᴇ ᴇʟɪᴛᴇ"
+
+volumes:
+  - name: session-data
+    path: /opt/render/project/src/sessions
