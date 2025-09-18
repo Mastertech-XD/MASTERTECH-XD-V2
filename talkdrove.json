@@ -1,0 +1,31 @@
+
+{
+"bot-name": "MASTERTECH-XD",
+  "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀsᴛᴇʀᴘᴇᴀᴄᴇ ᴇʟɪᴛᴇ",
+  "logo":  "https://files.catbox.moe/1r2s5m.png",
+  "keywords": ["bot"],
+  "documentation-link": "https://elite-master-pair.onrender.com",
+    "owner-verification":"masterpeace254elite@gmail.com",
+  
+    "env": {
+      "SESSION_ID": {
+        "description": "Put your SESSION_ID here. It starts with masterpeace~",
+        "value":"",
+        "required": true
+        
+      },
+      
+    "OWNER_NUMBER": {
+      "description": "Enter owner number",
+      "required": true,
+      "value": "254743727510"
+      
+       },
+      "TIMEZONE": {
+      "description": "Enter country timezone",
+      "required": true,
+      "value": "Africa/Nairobi"
+
+    }  
+  }
+}
