@@ -21,7 +21,3 @@ services:
         value: "254743727510"
       - key: OWNER_NAME
         value: "ᴍᴀꜱᴛᴇʀᴘᴇᴀᴄᴇ ᴇʟɪᴛᴇ"
-    disk:
-      name: session-data
-      mountPath: /opt/render/project/src/sessions
-      sizeGB: 1
