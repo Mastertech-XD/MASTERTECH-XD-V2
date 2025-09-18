@@ -14,7 +14,7 @@ services:
       - key: PREFIX
         value: "."
       - key: MODE
-        value: "public"
+        value: "private"
       - key: DESCRIPTION
         value: "> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀꜱᴛᴇʀᴛᴇᴄʜ-xᴅ*"
       - key: OWNER_NUMBER
